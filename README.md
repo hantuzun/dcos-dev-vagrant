@@ -9,5 +9,5 @@ vagrant ssh
 git clone https://github.com/dcos/dcos
 cd dcos
 git checkout 1.10.2
-./build_local
+./build_local.sh
 ```
