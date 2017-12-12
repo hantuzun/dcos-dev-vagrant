@@ -1,6 +1,7 @@
 # Ubuntu 16.04 DC/OS Development Vagrantfile
 
 ```sh
+vagrant plugin install vagrant-disksize
 vagrant up
 vagrant ssh
 ```
