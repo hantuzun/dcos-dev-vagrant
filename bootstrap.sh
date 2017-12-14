@@ -20,9 +20,9 @@ sudo usermod -aG docker $USER
 # pyenv & Python 3.6.3
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils liblzma-dev python3-venv
 curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
-/home/vagrant/.pyenv/bin/pyenv install 3.5.4
-/home/vagrant/.pyenv/bin/pyenv virtualenv -p python3.5 3.5.4 dcos
-echo 'export PATH="/home/vagrant/.pyenv/bin:$PATH"' >> ~/.bashrc
+/home/ubuntu/.pyenv/bin/pyenv install 3.5.4
+/home/ubuntu/.pyenv/bin/pyenv virtualenv -p python3.5 3.5.4 dcos
+echo 'export PATH="/home/ubuntu/.pyenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
 echo 'pyenv activate dcos' >> ~/.bashrc
